@@ -1,0 +1,8 @@
+{
+  "name": "marketplace-kb-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "tsx src/knowledge_base_bot.ts", "test": "tsx src/knowledge_base_bot.test.ts"},
+  "dependencies": {"openai": "^4.0.0", "zod": "^3.0.0", "tsx": "^4.0.0"},
+  "devDependencies": {"typescript": "^5.0.0"}
+}
